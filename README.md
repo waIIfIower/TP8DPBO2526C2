@@ -342,5 +342,5 @@ INSERT INTO `courses` (`id`, `course_code`, `course_name`, `credits`, `semester`
 ```
 
 # Dokumentasi
-
-Rekaman demonstrasi aplikasi (*screen record*) yang menampilkan alur operasi **Create**, **Read**, **Update**, dan **Delete** pada seluruh tabel (**Lecturers**, **Departments**, dan **Courses**) tersimpan di [`dokumentasi/Record.mp4`](dokumentasi/Record.mp4).
+videonya gabisa dimasukin soalnnya kegedan jadi ditaro di yt aja<br>
+https://youtu.be/oCrbO_UIQs4
