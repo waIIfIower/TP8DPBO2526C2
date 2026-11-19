@@ -1,8 +1,6 @@
-# Sistem Informasi Akademik — Arsitektur MVC (PHP Native & MySQL)
+# Janji
+Saya Muhammad Dzaka Indrianto dengan NIM 2508755 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-Aplikasi web manajemen data akademik (**Dosen**, **Departemen**, dan **Mata Kuliah**) yang dibangun menggunakan **PHP Native** dengan pendekatan **Object-Oriented Programming (OOP)**, pola arsitektur **Model-View-Controller (MVC)**, dan **PDO Prepared Statements**.
-
----
 
 ## 1. Struktur Repositori
 
@@ -73,15 +71,6 @@ Database **`tp_mvc25`** terdiri dari 3 tabel yang saling berelasi:
 4. *Model* mengembalikan hasil query dalam bentuk *associative array* ke *Controller*.
 5. `CourseController` memanggil `$this->render('courses/index', [...])` untuk menyisipkan data ke dalam *View* dan menampilkannya ke browser pengguna.
 6. Saat pengguna melakukan aksi **Create**, **Update**, atau **Delete**, *Controller* memvalidasi data, mengeksekusi operasi pada *Model*, menyimpan notifikasi ke `$_SESSION['flash']`, lalu melakukan *redirect* kembali ke halaman daftar (*PRG Pattern — Post/Redirect/Get*).
-
----
-
-## 5. Cara Menjalankan Project
-
-1. Ekstrak arsip ini dan salin folder **`tp_mvc25`** ke direktori root web server lokal (misalnya `htdocs/` pada XAMPP atau `www/` pada Laragon).
-2. Buka **phpMyAdmin** atau klien MySQL, lalu impor file **`tp_mvc25.sql`**.
-3. Sesuaikan kredensial database pada `project/config/Database.php` jika diperlukan (default: `host=localhost`, `dbName=tp_mvc25`, `username=root`, `password=""`).
-4. Buka browser dan akses `http://localhost/tp_mvc25/project/index.php`.
 
 ---
 
